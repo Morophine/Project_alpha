@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/public/output-style.css" rel="stylesheet">
+        <style>
+
+/* DEMO-SPECIFIC STYLES */
+#console p:nth-child(2){
+  color: rgb(16, 250, 47);
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid green; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 6 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .2.4em; /* Adjust as needed */
+  animation: 
+    typing 6s steps(30, end),
+    blink-caret .2s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  20% { border-color: rgb(45, 214, 73) }
+}
+       
+        </style>
+        
+</head>
+        <body >
+                <div class="flex flex-row min-h-screen justify-center items-center">
+                <div class="w-1/2 mx-auto">
+                        <div class="w-full shadow-2xl subpixel-antialiased rounded h-64 bg-black border-black mx-auto">
+                          <div class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black" id="headerTerminal">
+                            <div class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3" id="closebtn">
+                            </div>
+                            <div class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3" id="minbtn">
+                            </div>
+                            <div class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3" id="maxbtn">
+                            </div>
+                            <div class="mx-auto pr-16" id="terminaltitle">
+                              <p class="text-center text-sm">Terminal</p>
+                            </div>
+                      
+                          </div>
+                          <div class="pl-1 pt-1 h-auto  text-green-200 font-mono text-xs bg-black" id="console">
+                                <p class="pb-1">Last login: Wed Sep 25 09:11:04 on ttys002</p> 
+                        </id>
+                            <p class="pb-1">Laraben:Devprojects laraben$</p>
+                          </div>
+                          </div>
+                        </div> 
+                      </div>
+
+                </body>
+                </html>
+        </body>
+        
+        
+
+
+</html>

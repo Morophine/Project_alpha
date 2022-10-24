@@ -1,0 +1,25 @@
+{
+  "name": "project_alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morophine/Project_alpha.git"
+  },
+  "author": "El Houssine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morophine/Project_alpha/issues"
+  },
+  "homepage": "https://github.com/Morophine/Project_alpha#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  },
+  "dependencies": {
+    "daisyui": "^2.33.0"
+  }
+}
